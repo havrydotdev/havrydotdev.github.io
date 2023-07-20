@@ -1,8 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { sora } from "./fonts";
-import styles from "./layout.module.css";
-import cn from "classnames";
 
 export const metadata: Metadata = {
   title: "Havrylenko Ivan",

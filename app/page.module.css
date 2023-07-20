@@ -1,10 +1,22 @@
 .main {
 	display: grid;
-	grid-template-rows: 85px 605px 616px 460px 441px 377px;
+	grid-template-rows: 85px 605px 616px 460px 700px 377px;
 }
 
-@media (width <= 992px) {
+@media (992px <= width <= 1200px) {
 	.main {
-		grid-template-rows: 85px 605px 840px 700px 441px 377px;
+		grid-template-rows: 85px 605px 616px 460px 1700px 377px;
+	}
+}
+
+@media (580px <= width <= 992px) {
+	.main {
+		grid-template-rows: 85px 605px 810px 700px 1700px 377px;
+	}
+}
+
+@media (width <= 580px) {
+	.main {
+		grid-template-rows: 85px 605px 1000px 800px 1700px 377px;
 	}
 }

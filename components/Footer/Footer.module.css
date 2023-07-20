@@ -1,3 +1,43 @@
 .footer {
 	background-color: var(--primary);
 }
+
+.container {
+	margin-top: 51px
+}
+
+.contacts {
+	color: var(--primary-darker);
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0 0;
+}
+
+.gtch {
+	margin: 11px 0 0 0 ;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.email {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 11px;
+	margin-bottom: 15px;
+}
+
+.tg {
+	display: block;
+	margin-bottom: 81px;
+}
+
+.copyright {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+@media (width <= 580px) {
+	.container {
+		margin-left: 25px;
+	}
+}

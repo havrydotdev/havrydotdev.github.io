@@ -24,9 +24,9 @@ export const Hello = ({
               className={styles.git}
               target="_blank"
             >
-              <div className={styles.btn_content}>
+              <div className={styles["btn-content"]}>
                 <GithubIcon className={styles.icon} />
-                <p>Github profile</p>
+                <p className={styles["btn-text"]}>Github profile</p>
               </div>
             </a>
           </div>

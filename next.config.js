@@ -6,7 +6,16 @@ const nextConfig = {
             use: ['@svgr/webpack'],
         });
         return config;
-    }
+    },
+    images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'github.com',
+            port: '',
+          },
+        ],
+    },
 };
 
 // eslint-disable-next-line no-undef

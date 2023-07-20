@@ -1,16 +1,19 @@
 .skills {
 	display: flex;
-	background-color: var(--primary);
 	align-items: center;
+
+	background-color: var(--primary);
 }
 
 .container {
 	margin: 80px 0;
+
 	text-align: center;
 }
 
 .skills-subheader {
 	color: var(--primary-darker);
+
 	font-size: 32px;
 	font-weight: 600;
 }
@@ -21,9 +24,9 @@
 
 .icons {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 30px;
-	flex-wrap: wrap;
 }
 
 .icon {
@@ -33,6 +36,7 @@
 @media (width <= 992px) {
 	.icons {
 		gap: 50px;
+
 		max-width: 550px;
 		margin: 75px auto;
 	}

@@ -14,6 +14,7 @@ export const Header = ({
       behavior: "smooth",
     });
   };
+
   return (
     <header className={cn(className, styles.header)} {...props}>
       <div className={styles.container}>
@@ -37,9 +38,6 @@ export const Header = ({
             Contact
           </div>
         </div>
-        <button className={styles.hamburger}>
-          <HamburgerIcon />
-        </button>
       </div>
     </header>
   );
