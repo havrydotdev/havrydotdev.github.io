@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Before running commands delete this line from next.config.js:
 ```javascript
-  output: 'export'
+output: 'export'
 ```
 
 First, run the development server:
