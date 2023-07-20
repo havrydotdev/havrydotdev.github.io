@@ -9,19 +9,19 @@ export const projectsArray: ProjectInfo[] = [
   {
     header: "Notik",
     text: "Fullstack note taking app written with go and vue",
-    img: "https://github.com/gavrylenkoIvan/images/blob/master/notik.jpg",
+    img: "https://github.com/gavrylenkoIvan/images/blob/master/notik.jpg?raw=true",
     url: "https://github.com/gavrylenkoIvan/gonotes",
   },
   {
     header: "Balance service",
     text: "CRUD api written in go",
-    img: "https://github.com/gavrylenkoIvan/images/blob/master/balance.png",
+    img: "https://github.com/gavrylenkoIvan/images/blob/master/balance.png?raw=true",
     url: "https://github.com/gavrylenkoIvan/balance-service",
   },
   {
     header: "Portfolio",
     text: "My personal website written in TypeScript & Next",
-    img: "https://github.com/gavrylenkoIvan/images/blob/master/portfolio.png",
+    img: "https://github.com/gavrylenkoIvan/images/blob/master/portfolio.png?raw=true",
     url: "https://github.com/gavrylenkoIvan/next-portfolio",
     demo: "https://gavrylenkoivan.github.io",
   },
