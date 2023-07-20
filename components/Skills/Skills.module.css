@@ -6,7 +6,7 @@
 }
 
 .container {
-	margin: 80px 0;
+	margin-top: 65px;
 
 	text-align: center;
 }
@@ -39,5 +39,11 @@
 
 		max-width: 550px;
 		margin: 75px auto;
+	}
+}
+
+@media (width <= 580px) {
+	.container {
+		margin-top: 50px;
 	}
 }

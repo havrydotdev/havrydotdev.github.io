@@ -36,7 +36,13 @@
 	font-weight: 400;
 }
 
-@media (width <= 580px) {
+@media (580px <= width <= 1200px) {
+	.container {
+		margin-left: 50px;
+	}
+}
+
+@media (width  <= 580px) {
 	.container {
 		margin-left: 25px;
 	}

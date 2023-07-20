@@ -1,6 +1,6 @@
 .main {
 	display: grid;
-	grid-template-rows: 85px 605px 616px 460px 700px 377px;
+	grid-template-rows: 85px 605px 616px 520px 700px 377px;
 }
 
 @media (992px <= width <= 1200px) {
@@ -9,14 +9,26 @@
 	}
 }
 
-@media (580px <= width <= 992px) {
+@media (770px <= width <= 992px) {
 	.main {
 		grid-template-rows: 85px 605px 810px 700px 1700px 377px;
 	}
 }
 
-@media (width <= 580px) {
+@media (580px <= width <= 770px) {
 	.main {
-		grid-template-rows: 85px 605px 1120px 800px 1450px 377px;
+		grid-template-rows: 85px 605px 900px 700px 1700px 377px;
+	}
+}
+
+@media (440px <= width <= 580px) {
+	.main {
+		grid-template-rows: 85px 605px 1050px 750px 1450px 377px;
+	}
+}
+
+@media (width <= 440px) {
+	.main {
+		grid-template-rows: 85px 605px 1230px 800px 1450px 377px;
 	}
 }

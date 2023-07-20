@@ -60,27 +60,25 @@ export const Projects = ({
       className={cn(className, styles.projects)}
       {...props}
     >
-      <Container>
-        <div className={styles.container}>
-          <h3 className={styles["projects-subheader"]}>Projects</h3>
-          <h2 className={styles["projects-header"]}>What have I made?</h2>
-          <div className={styles["projects-list"]}>
-            {projectsArray.map((p) => (
-              <div className={styles["project-github"]} key={p.url}>
-                <Image
-                  alt="Project image"
-                  src={p.img}
-                  width={363}
-                  height={198}
-                  unoptimized={true}
-                  className={styles["project-github-image"]}
-                />
-                <h3 className={styles["project-github-header"]}>{p.header}</h3>
-                <p className={styles["project-github-text"]}>{p.text}</p>
-                {renderLinks(p.demo, p.url)}
-              </div>
-            ))}
-          </div>
+      <Container className={styles.container}>
+        <h3 className={styles["projects-subheader"]}>Projects</h3>
+        <h2 className={styles["projects-header"]}>What have I made?</h2>
+        <div className={styles["projects-list"]}>
+          {projectsArray.map((p) => (
+            <div className={styles["project-github"]} key={p.url}>
+              <Image
+                alt="Project image"
+                src={p.img}
+                width={363}
+                height={198}
+                unoptimized={true}
+                className={styles["project-github-image"]}
+              />
+              <h3 className={styles["project-github-header"]}>{p.header}</h3>
+              <p className={styles["project-github-text"]}>{p.text}</p>
+              {renderLinks(p.demo, p.url)}
+            </div>
+          ))}
         </div>
       </Container>
     </section>

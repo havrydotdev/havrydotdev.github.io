@@ -10,20 +10,20 @@ export const About = ({
 }: AboutProps): React.JSX.Element => {
   return (
     <section id="about" className={cn(className, styles.about)} {...props}>
-      <Container>
-        <div className={styles.container}>
-          <AmigoIcon className={styles.amigo} />
-          <div className={styles["about-block"]}>
-            <h3 className={styles["about-subheader"]}>About</h3>
-            <h2 className={styles["about-header"]}>About Me?</h2>
-            <p className={styles["about-text"]}>
-              I am an experienced, motivated fullstack engineer with well
-              developed skills. I have used frameworks like Next.js, Nuxt and
-              Vue. Also I have experience in both Typescript and Javascript. I
-              am keen on Go and tools like Docker and Github actions. I have a
-              plenty of projects so you can visit my Github to see them.
-            </p>
-          </div>
+      <Container className={styles.container}>
+        <AmigoIcon className={styles.amigo} />
+        <div className={styles["about-block"]}>
+          <h3 className={styles["about-subheader"]}>About</h3>
+          <h2 className={styles["about-header"]}>About Me?</h2>
+          <p className={styles["about-text"]}>
+            I am an experienced, motivated fullstack engineer with well
+            developed skills. I am a good communicator with proven inter
+            personal skills and am used to working in a team whilst also being
+            capable of using own initiative. I am skilled In dealing with
+            problems in a resourceful manner and negotiating to achieve
+            beneficial agreement. I am always enthusiastic to learn and
+            undertake new challenges.
+          </p>
         </div>
       </Container>
     </section>

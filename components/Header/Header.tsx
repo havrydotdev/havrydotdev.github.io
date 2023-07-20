@@ -2,7 +2,9 @@
 import HeaderProps from "./Header.props";
 import styles from "./Header.module.css";
 import cn from "classnames";
-import HamburgerIcon from "../../public/hamburger.svg";
+import ArrowIcon from "@/public/arrow.svg";
+import { useEffect, useState } from "react";
+import { Container } from "../Container/Container";
 
 export const Header = ({
   className,
@@ -17,7 +19,7 @@ export const Header = ({
 
   return (
     <header className={cn(className, styles.header)} {...props}>
-      <div className={styles.container}>
+      <Container className={styles.container}>
         <div className={styles.logo} onClick={() => handleScroll("hello")}>
           Havrylenko
         </div>
@@ -38,7 +40,7 @@ export const Header = ({
             Contact
           </div>
         </div>
-      </div>
+      </Container>
     </header>
   );
 };
