@@ -4,7 +4,8 @@ import { sora } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Havrylenko Ivan",
-  description: "My website portfolio",
+  description:
+    "My personal website with information about my work and experience",
 };
 
 export default function RootLayout({
