@@ -1,4 +1,10 @@
 .main {
-    display: grid;
-    grid-template-rows: 100px 605px 616px 441px 441px 377px;
+	display: grid;
+	grid-template-rows: 85px 605px 616px 460px 441px 377px;
+}
+
+@media (width <= 992px) {
+	.main {
+		grid-template-rows: 85px 605px 840px 700px 441px 377px;
+	}
 }

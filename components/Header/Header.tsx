@@ -20,20 +20,22 @@ export const Header = ({
         <div className={styles.logo} onClick={() => handleScroll("hello")}>
           Havrylenko
         </div>
-        <div className={styles.text} onClick={() => handleScroll("hello")}>
-          Home
-        </div>
-        <div className={styles.text} onClick={() => handleScroll("about")}>
-          About
-        </div>
-        <div className={styles.text} onClick={() => handleScroll("skills")}>
-          Skills
-        </div>
-        <div className={styles.text} onClick={() => handleScroll("projects")}>
-          Projects
-        </div>
-        <div className={styles.text} onClick={() => handleScroll("footer")}>
-          Contact
+        <div className={styles.sections}>
+          <div className={styles.text} onClick={() => handleScroll("hello")}>
+            Home
+          </div>
+          <div className={styles.text} onClick={() => handleScroll("about")}>
+            About
+          </div>
+          <div className={styles.text} onClick={() => handleScroll("skills")}>
+            Skills
+          </div>
+          <div className={styles.text} onClick={() => handleScroll("projects")}>
+            Projects
+          </div>
+          <div className={styles.text} onClick={() => handleScroll("footer")}>
+            Contact
+          </div>
         </div>
         <button className={styles.hamburger}>
           <HamburgerIcon />

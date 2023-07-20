@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "slint": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
     "@types/node": "20.4.2",
@@ -21,6 +22,10 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.0.1"
+    "@svgr/webpack": "^8.0.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-order-config-standard": "^0.1.3"
   }
 }

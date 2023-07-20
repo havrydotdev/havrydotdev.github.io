@@ -1,3 +1,71 @@
 .about {
-    background-color: var(--white);
+	background-color: var(--white);
+}
+
+.container {
+	display: flex;
+
+	margin: 58px 0;
+}
+
+.about-block {
+	margin: 58px 87px;
+}
+
+.about-subheader {
+	margin: 0;
+
+	color: var(--primary-darker);
+
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.about-header {
+	margin: 15px 0;
+
+	font-size: 48px;
+}
+
+.about-text {
+	max-width: 580px;
+
+	color: var(--gray);
+
+	font-size: 20px;
+	
+}
+
+.amigo {
+	width: 500px;
+}
+
+@media (width <= 992px) {
+	.about-subheader,
+	.about-header {
+		text-align: center;
+	}
+
+	.container {
+		display: block;
+
+		margin: 0;
+	}
+
+	.amigo {
+		display: block;
+
+		width: 300px;
+		margin: 20px auto;
+	}
+
+	.about {
+		margin: 30px 0;
+	}
+
+	.about-text {
+		margin: 20px auto;
+
+		text-align: center;
+	}
 }
