@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "slint": "stylelint \"**/*.css\" --fix"
+    "slint": "stylelint \"**/*.css\" --fix",
+    "export": "next export"
   },
   "dependencies": {
     "@types/node": "20.4.2",
