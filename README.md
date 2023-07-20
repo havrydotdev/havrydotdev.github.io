@@ -3,10 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 Before running commands delete this line from next.config.js:
-```json
-{
+```javascript
   output: 'export'
-}
 ```
 
 First, run the development server:
