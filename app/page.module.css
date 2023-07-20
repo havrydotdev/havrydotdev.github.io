@@ -17,6 +17,6 @@
 
 @media (width <= 580px) {
 	.main {
-		grid-template-rows: 85px 605px 1000px 800px 1700px 377px;
+		grid-template-rows: 85px 605px 1120px 800px 1700px 377px;
 	}
 }
