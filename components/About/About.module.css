@@ -8,6 +8,12 @@
 	margin-top: 58px;
 }
 
+.about-block {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 10px;
+}
 
 .about-subheader {
 	margin: 0;
@@ -19,13 +25,13 @@
 }
 
 .about-header {
-	margin: 15px 0;
+	margin: 8px 0;
 
 	font-size: 48px;
 }
 
 .about-text {
-	max-width: 580px;
+	max-width: 470px;
 
 	color: var(--gray);
 
