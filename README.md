@@ -1,10 +1,5 @@
 ## Getting Started
 
-Before running commands delete this line from next.config.js:
-```javascript
-output: 'export'
-```
-
 Run the development server:
 
 ```bash
