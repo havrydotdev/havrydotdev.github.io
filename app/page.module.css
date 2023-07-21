@@ -17,18 +17,18 @@
 
 @media (580px <= width <= 770px) {
 	.main {
-		grid-template-rows: 85px 640px 900px 700px 1700px 377px;
+		grid-template-rows: 85px 640px 860px 700px 1700px 377px;
 	}
 }
 
 @media (440px <= width <= 580px) {
 	.main {
-		grid-template-rows: 85px 640px 1050px 750px 1450px 377px;
+		grid-template-rows: 85px 640px 860px 750px 1450px 440px;
 	}
 }
 
 @media (width <= 440px) {
 	.main {
-		grid-template-rows: 85px 640px 1230px 800px 1450px 377px;
+		grid-template-rows: 85px 640px 1020px 800px 1450px 440px;
 	}
 }

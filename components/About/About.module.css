@@ -8,9 +8,6 @@
 	margin-top: 58px;
 }
 
-.about-block {
-	margin: 58px 87px;
-}
 
 .about-subheader {
 	margin: 0;
@@ -33,7 +30,6 @@
 	color: var(--gray);
 
 	font-size: 20px;
-	
 }
 
 .amigo {
@@ -64,8 +60,25 @@
 	}
 
 	.about-text {
+		max-width: 550px;
 		margin: 20px auto;
+	}
+}
 
-		text-align: center;
+@media (width <= 640px) {
+	.about-text {
+		max-width: 450px;
+	}
+}
+
+@media (width <= 580px) {
+	.about-text {
+		max-width: 400px;
+	}
+}
+
+@media (width <= 440px) {
+	.about-text {
+		max-width: 320px;
 	}
 }

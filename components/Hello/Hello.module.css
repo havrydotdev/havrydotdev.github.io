@@ -28,8 +28,6 @@
 }
 
 .dev {
-	margin-top: 14px;
-
 	font-size: 20px;
 	font-weight: 400;
 }
@@ -62,20 +60,20 @@
 	padding-left: 25px;
 }
 
-.go {
+.hello-image {
 	width: 575px;
 	height: 241px;
 }
 
 @media (width <= 1200px) {
-	.go {
+	.hello-image {
 		width: 420px;
 	}
 }
 
 @media (width <= 992px) {
-	.go {
-		display: none;
+	.hello-image {
+		width: 0;
 	}
 
 	.container {
@@ -90,5 +88,22 @@
 
 	.git {
 		margin: 70px auto;
+	}
+}
+
+@media (width <= 580px) {
+	.dev {
+		max-width: 400px;
+	}
+}
+
+@media (width <= 480px) {
+	.dev {
+		max-width: 350px;
+		margin: 14px auto
+	}
+
+	.me {
+		font-size: 42px;
 	}
 }

@@ -22,8 +22,8 @@ export const projectsArray: ProjectInfo[] = [
     header: "Portfolio",
     text: "My personal website written in TypeScript & Next",
     img: "https://github.com/gavrylenkoIvan/images/blob/master/portfolio.png?raw=true",
-    url: "https://github.com/gavrylenkoIvan/next-portfolio",
-    demo: "https://gavrylenkoivan.github.io",
+    url: "https://github.com/gavrylenkoIvan/gavrylenkoivan.github.io",
+    demo: "https://havrylenko.site",
   },
 ];
 

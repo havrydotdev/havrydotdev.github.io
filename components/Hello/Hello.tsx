@@ -29,9 +29,7 @@ export const Hello = ({
             </div>
           </a>
         </div>
-        <div className={styles.go}>
-          <GoIcon />
-        </div>
+        <GoIcon className={styles["hello-image"]} />
       </Container>
     </section>
   );

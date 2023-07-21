@@ -6,7 +6,7 @@ import NextIcon from "@/public/next.svg";
 import HTMLIcon from "@/public/html.svg";
 import CSSIcon from "@/public/css.svg";
 import NuxtIcon from "@/public/nuxt.svg";
-import GoIcon from "@/public/golang.svg";
+import GoIcon from "@/public/go.svg";
 
 export const Skills = ({
   className,

@@ -1,7 +1,4 @@
 .skills {
-	display: flex;
-	align-items: center;
-
 	background-color: var(--primary);
 }
 
@@ -20,6 +17,7 @@
 
 .skills-header {
 	font-size: 48px;
+	margin: 0 auto;
 }	
 
 .icons {
@@ -27,6 +25,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 30px;
+	margin-top: 40px;
 }
 
 .icon {
@@ -38,7 +37,7 @@
 		gap: 50px;
 
 		max-width: 550px;
-		margin: 75px auto;
+		margin: 65px auto;
 	}
 }
 
@@ -46,4 +45,15 @@
 	.container {
 		margin-top: 50px;
 	}
+
+	.skills-header {
+		max-width: 540px;
+	}		
+}
+
+@media (width <= 520px) {
+	.skills-header {
+		max-width: 410px;
+		font-size: 44px;
+	}	
 }

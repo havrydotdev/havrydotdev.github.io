@@ -47,3 +47,9 @@
 		margin-left: 25px;
 	}
 }
+
+@media (440px <= width <= 580px) {
+	.tg {
+		margin-bottom: 123px;
+	}
+}

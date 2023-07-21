@@ -13,8 +13,8 @@ export const About = ({
       <Container className={styles.container}>
         <AmigoIcon className={styles.amigo} />
         <div className={styles["about-block"]}>
-          <h3 className={styles["about-subheader"]}>About</h3>
-          <h2 className={styles["about-header"]}>About Me?</h2>
+          <h3 className={styles["about-subheader"]}>Who Am I?</h3>
+          <h2 className={styles["about-header"]}>About Me</h2>
           <p className={styles["about-text"]}>
             I am an experienced, motivated fullstack engineer with well
             developed skills. I am a good communicator with proven inter
