@@ -1,0 +1,64 @@
+$sf-pro-path: "/fonts/sf_pro";
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Thin.otf") format("otf");
+
+  font-family: "SF_Pro";
+  font-weight: 100;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Ultralight.otf");
+
+  font-family: "SF_Pro";
+  font-family: 200;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Light.otf");
+
+  font-family: "SF_Pro";
+  font-family: 300;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Regular.otf");
+
+  font-family: "SF_Pro";
+  font-family: 400;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Medium.otf");
+
+  font-family: "SF_Pro";
+  font-family: 500;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Semibold.otf");
+
+  font-family: "SF_Pro";
+  font-family: 600;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Bold.otf");
+
+  font-family: "SF_Pro";
+  font-family: 700;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Black.otf");
+
+  font-family: "SF_Pro";
+  font-family: 900;
+}
+
+@font-face {
+  src: url("#{$sf-pro-path}/SF-Pro-Text-Heavy.otf");
+
+  font-family: "SF_Pro";
+  font-family: 950;
+}

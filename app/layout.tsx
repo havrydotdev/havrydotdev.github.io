@@ -1,11 +1,9 @@
-import "./globals.css";
+import "./globals.scss";
 import type { Metadata } from "next";
-import { sora } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Havrylenko Ivan",
-  description:
-    "My personal website with information about my work and experience",
+  description: "My personal website, aka Visual Studio Portfolio",
 };
 
 export default function RootLayout({
@@ -15,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={sora.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
