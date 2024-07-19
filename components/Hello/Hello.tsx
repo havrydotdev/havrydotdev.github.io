@@ -19,7 +19,7 @@ export const Hello = ({
             An interested fullstack developer from Ukraine
           </p>
           <a
-            href="https://github.com/gavrylenkoIvan"
+            href="https://github.com/havrydotdev"
             className={styles.git}
             target="_blank"
           >
