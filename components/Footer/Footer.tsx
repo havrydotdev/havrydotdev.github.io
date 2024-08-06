@@ -15,7 +15,7 @@ export const Footer = ({
         <h2 className={styles.gtch}>How to reach me?</h2>
         <h4 className={styles.email}>havrylenko.inbox@gmail.com</h4>
         <a
-          href="https://t.me/havrylenko_ivan"
+          href="https://t.me/havrydotdev"
           target="_blank"
           className={styles.tg}
         >
